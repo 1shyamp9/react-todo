@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@import "feature";
+@import "header";
+@import "signup"; 
+@import "todo"; 
+@import "task"; 
+
+.profile{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1{
+      color: cadetblue;
+  }
+  h2{
+      color: rgb(16, 22, 22);
+  }
+}
+.loader{
+  height: calc(100vh - 50px);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  h1{
+    font-size: 3rem;
+    color: rgb(108, 112, 112);
+  }
+}
